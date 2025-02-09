@@ -1,0 +1,170 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="bkg-color" background-color="#F5F5F5" />
+      <mj-class name="blue-bkg-color" background-color="#006491" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .text-red {
+        color:#E6304B !important;
+        font-size: 16px !important;
+        text-decoration: none !important;
+        text-align: center !important;
+        font-weight: bold !important;
+      }
+      .blue {
+        color:#006490 !important;
+ 
+        font-weight: bold !important;
+      }
+      .black-link {
+        color:#000000 !important;
+        text-decoration: underline !important;
+      }
+      .blank-link {
+        color:#888888 !important;
+        text-decoration: underline !important;
+      }
+
+
+    </mj-style>
+    <mj-style>
+        @media  (min-width: 480px) {
+        .align div {
+          text-align: left!important;
+          
+        }        
+        .align {
+          text-align: left!important;
+          padding-top: 7px !important;
+          
+        }
+      }
+        @media  (max-width: 480px) {
+            .logo div img{
+                width: 100px !important;}
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <!-- top section -->
+    <mj-section mj-class="bkg-color" >
+        <mj-group>
+                  <mj-column width="50%">
+        <mj-image href="#"src="https://i.postimg.cc/4xd21v37/logo.png" alt="logo" width="50px" align="left" css-class="logo"/>  
+      </mj-column>
+      
+      <!-- Right Column (Order Online Link) -->
+      <mj-column width="50%" vertical-align="middle">
+        <mj-table width="100%">
+          <tr>
+            <td align="right" valign="middle" height="50">
+              <a class="text-red" href="#">ORDER ONLINE</a>
+            </td>
+          </tr>
+        </mj-table>
+        </mj-group>
+      <!-- Left Column (Logo) -->
+
+      </mj-column>
+      
+    </mj-section mj-class="bkg-color">
+    <!-- rewards section -->
+    <mj-section padding="0">
+        <mj-group mj-class="blue-bkg-color" >
+            <!-- rewards img -->
+            <mj-column   vertical-align="middle" >
+                <mj-image href="#"src="https://i.postimg.cc/3J9bpf3Q/head-order.png" alt="rewards" width="150px"  align="left" padding="0px 10px " />
+            </mj-column>
+            <!-- total points -->
+            <mj-column  vertical-align="middle" >
+                <mj-text color="#ffffff" font-weight="bold" font-size="12px" align="center" padding="10px 0px">
+                    HI MARCO! YOU HAVE 10 POINTS!
+                </mj-text>
+                <mj-image href="#"src="https://i.postimg.cc/76vBDpn0/points.png" alt="rewards" width="150px"  align="center" padding="0px 0px 10px 0px"/>
+            </mj-column>
+            <!-- order now -->
+            <mj-column  vertical-align="middle" >
+                <mj-image href="#"  src="https://i.postimg.cc/nL9dyHBn/ordernowbtn.png" alt="rewards" width="120px" align="right" padding="0px 10px "/>
+            </mj-column>
+        </mj-group>
+    </mj-section>
+    <!-- 1st mix and match section -->
+    <mj-section mj-class="bkg-color">
+        <mj-column>
+            <mj-image href="#"src="https://i.postimg.cc/1tpvzJvT/mix-match.jpg" alt="mix and match $6.99 each order now" padding="0"/>
+        </mj-column>
+    </mj-section>
+    <!-- 2nd mix and match section -->
+    <mj-section padding="0" mj-class="bkg-color">
+        <mj-column>
+            <mj-image href="#"src="https://i.postimg.cc/vTb3xfjm/mix-match-2.jpg" alt="mix and match Loaded Chicken order now" padding="0"/>
+        </mj-column>
+    </mj-section>
+    <!-- menu and coupon btns -->
+    <mj-section mj-class="bkg-color">
+        <mj-column>
+            <mj-image href="#"src="https://i.postimg.cc/vHGN4wFv/btn-1.png" alt="Browse Menu" padding="0"/>
+            <mj-image href="#"src="https://i.postimg.cc/d3jN54dd/btn-2.png" alt="Find Coupons" padding="0"/>
+        </mj-column>
+    </mj-section>
+    <!-- top border for local store section -->
+    <mj-section padding="0" mj-class="bkg-color">
+        <mj-column>
+            <mj-image href="#"src="https://i.postimg.cc/h41CWZzQ/top-border.png" alt="top border" padding="0"/>
+        </mj-column>
+    </mj-section>
+    <!-- local store section -->
+    <mj-section padding="10px" mj-class="bkg-color">
+        <mj-column>
+            <mj-image href="#"src="https://i.postimg.cc/3xd9GKL2/your-store.png" alt="your local store" padding="0" width="250px " align="center"/>
+        </mj-column>
+        <mj-column padding="0" >
+            <mj-image href="#"css-class="align"  align="center" src="https://i.postimg.cc/kXjfDVyn/your-store-text.png" alt="your local store"  width="250px" padding="30px 0 0"/>
+            <mj-text  css-class="align" align="center" color="#2378A1" font-size="16px" padding="10px 0 0 0 ">
+                4532 The Cities St New York, RO 81244
+            </mj-text>
+            <mj-text font-style="italic" css-class="align" align="center" color="#000000" padding="15px 0 0 0">
+               <p >Not your store? Update your <a href="#" class="black-link">subscription address.</a> </p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <!-- bottom border for local store section -->
+    <mj-section padding="0" mj-class="bkg-color">
+        <mj-column>
+            <mj-image href="#"src="https://i.postimg.cc/h41CWZzQ/top-border.png" alt="bottom border" padding="0"/>
+        </mj-column>
+    </mj-section>
+    <!-- social Icons -->
+    <mj-section background-color="#E5E5E5">
+        <mj-column>
+            <mj-social>
+                <mj-social-element padding="10px" icon-size="18px" alt="Facebook" src="https://i.postimg.cc/h4LY4Pwj/fb.png" href="#"></mj-social-element>
+                <mj-social-element padding="10px"  icon-size="30px" alt="X" src="https://i.postimg.cc/Dyfx2QLj/x.png" href="#"></mj-social-element>
+                <mj-social-element padding="10px"  icon-size="30px" alt="Instagram" src="https://i.postimg.cc/y8bQpJJf/ig.png" href="#"></mj-social-element>
+                <mj-social-element padding="10px"  icon-size="30px" alt="TikTok" src="https://i.postimg.cc/XqLxfXSk/tt.png" href="#"></mj-social-element>
+            </mj-social>
+        </mj-column>
+    </mj-section>
+    <!-- legal stuff -->
+    <mj-section background-color="#E5E5E5">
+        <mj-column>
+            <mj-text line-height="1.5" color="#888888" font-size="12px">
+                <p>            
+                <span class="blue">Legal Stuff: </span> Domino's® Rewards is open only to US residents 13+ with a Domino's Profile account who order from participating Domino's locations. Status as of 02/07/2025. Point redemption only valid online toward specific menu items at participating locations. Only one order of $5 or more excluding gratuities and donations per calendar day can earn points. For complete details visit dominos.com/rewards.
+                </p>
+                <p>                    
+                Any delivery charge is not a tip paid to your driver. Please reward your driver for awesomeness. Drivers carry less than $20. You must select this limited time offer. Minimum purchase required for delivery. Delivery charge and tax may apply. Prices, participation, delivery area and charges may vary. Prices and coupons may vary in Alaska, California, and Hawaii. Store hours may vary. Returned checks, along with the state's maximum allowable returned check fee, may be electronically presented to your bank. ©2025 Domino's IP Holder LLC. Domino's®, Domino's Pizza® and the modular logo are registered trademarks of Domino's IP Holder LLC.
+                </p>
+                <p>Domino's email coupons are linked directly to your nearest Domino's store. If you have moved or would like to receive email coupons from a different store, please visit our Email & Text Offers page. Simply enter the new street address and the same email address you used to subscribe to Domino's emails, then click 'SIGN ME UP.'</p>
+                <p>Outside the U.S. and would like to unsubscribe? click here.</p>
+                <p>To unsubscribe within the U.S., please click here.</p>
+                <p>This message was sent to you@gmail.com</p>
+                <p>Domino's Pizza LLC 30 Frank Lloyd Wright Dr.Ann Arbor, MI 48106</p>
+                <p>Questions? Contact Domino's Customer Service.</p>
+                <a href="#" class="blank-link">View in browser</p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
